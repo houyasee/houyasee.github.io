@@ -3,7 +3,7 @@
 #!author=houyasee
 
 [Rewrite]
-^https?:\/\/api\.(958998|jinricx)\.com\/api\/home\/index\/qdy reject
+
 
 ^https?:\/\/api\.(958998|jinricx)\.com\/api\/user\/tjjx\/tjjx_detail response-body-json-replace data.ispb 0 data.ispay 1
 
