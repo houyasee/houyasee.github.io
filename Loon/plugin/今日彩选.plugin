@@ -6,11 +6,11 @@
 
 ^https?:\/\/api\.(958998|jinricx)\.com\/api\/user\/tjjx\/tjjx_detail response-body-json-replace data.ispb 0 data.ispay 1
 
-^https?:\/\/api\.(958998|jinricx)\.com\/api\/user\/center\/Refresh response-body-json-replace data.score 10000
+#^https?:\/\/api\.(958998|jinricx)\.com\/api\/user\/center\/Refresh response-body-json-replace data.score 10000
 
 ^https?:\/\/api\.(958998|jinricx)\.com\/api\/user\/dsjx\/hy_qy response-body-json-replace data[11] {"status":1,"power":80,"su_type":80,"sytime":2579490,"hy_name":"超级会员(所有彩)","text":"超级会员"} data[2] {"status":0,"power":30,"su_type":1,"sytime":0,"hy_name":"彩种会员(福彩3D)","text":"彩种会员(福彩3D)功能无限制使用"}
 
-^https?:\/\/api\.(958998|jinricx)\.com\/api\/user\/center\/user_info response-body-json-replace data.gn_hy [{"status":1,"gnname":"超级会员","starttime":1784274811,"su_type":80,"power":80,"endtime":1786866811,"num":30,"sysj":30}] data.gn_list [80] data.score 10000
+^https?:\/\/api\.(958998|jinricx)\.com\/api\/user\/center\/user_info response-body-json-replace data.gn_hy [{"status":1,"gnname":"超级会员","starttime":1784274811,"su_type":80,"power":80,"endtime":1786866811,"num":30,"sysj":30}] data.gn_list [80]
 
 
 [Script]
