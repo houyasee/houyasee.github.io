@@ -14,6 +14,10 @@
 
 ^https?:\/\/m\.(958998|jinricx)\.com\/gonggao\/gg.json reject-200
 
+^https?:\/\/api\.(958998|jinricx)\.com\/api\/user\/tjjx\/tc_tjjx reject-200
+
+^https?:\/\/api\.(958998|jinricx)\.com\/api\/portal\/Articles\/index reject-200
+
 [Script]
 http-response ^https:\/\/m\.jinricx\.com\/js\/main-[a-f0-9]{8}\.js script-path=https://raw.githubusercontent.com/houyasee/houyasee.github.io/master/Loon/script/jrcx.js, requires-body=true, timeout=60, tag=今日彩选去开屏
 
